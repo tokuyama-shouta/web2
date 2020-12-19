@@ -88,6 +88,13 @@ header h1 span{
   display: inline-block;
 }
 
+header nav ul li a{
+  font-size: 16px;
+  font-weight: bold;
+  color:#734339;
+  text-decoration: none;
+}
+
 
 /* ========================================
     メイン画像用
