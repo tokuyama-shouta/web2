@@ -50,9 +50,11 @@ a:focus {outline:none;}
     レイアウト用
 ========================================= */
 
-/* body{
-
-} */
+body{
+  background: url(img/bg.png);
+  border-top: 5px solid #345c39;
+  font-family: "メイリオ",Meiryo;
+}
 
 #wrapper{
   width: 960px;
@@ -78,7 +80,6 @@ header h1{
   padding-left: 51px;
   line-height: 1;
   height: 49px;
-  font-family: "メイリオ",Meiryo;
   float: left;
 }
 
