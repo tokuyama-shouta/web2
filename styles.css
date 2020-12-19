@@ -93,6 +93,12 @@ header nav ul li a{
   font-weight: bold;
   color:#734339;
   text-decoration: none;
+  height: 26px;
+  display: inline-block;
+}
+header nav ul li a:hover{
+  color:#345c39;
+  border-bottom:4px solid #345c39;
 }
 
 
