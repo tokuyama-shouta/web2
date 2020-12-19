@@ -153,7 +153,7 @@ header nav ul li:hover a{
 ========================================= */
 #left{
   width: 555px;
-  height: 178px;
+  height: auto;
   background-color: #fff;
   float: left;
   margin-right: 20px;
@@ -254,4 +254,25 @@ footer{
   color:#2f5734;
   font-weight: bold;
   padding-left: 23px;
+}
+
+#left dl {
+  margin-top: 11px;
+}
+
+#left dl dt{
+  font-size: 15px;
+  font-weight: normal;
+  color:#734339;
+}
+#left dl dd{
+  font-size: 13px;
+  font-weight: normal;
+  color:#927e7a;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+#left dl dd:last-child{
+  margin-bottom: 0;
 }
