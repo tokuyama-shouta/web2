@@ -160,7 +160,8 @@ header nav ul li:hover a{
   padding: 10px;
 }
 
-#left h2{
+#left h2,
+#left h3{
   font-size: 17px;
   font-weight: bold;
   color:#734339;
