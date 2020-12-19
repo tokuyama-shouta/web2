@@ -161,10 +161,17 @@ header nav ul li:hover a{
   border-left: 5px solid #ba3009;
   padding-left: 10px;
 }
+#left ul {
+  overflow: scroll;
+  width: 555px;
+  height: 145px;
+}
 #left ul li {
   font-size: 13px;
   font-weight: normal;
   color:#927e7a;
+  border-bottom: 1px dotted #d0d0d0;
+  line-height: 32px;
 }
 #left ul li span {
   font-size: 12px;
