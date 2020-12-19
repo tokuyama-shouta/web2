@@ -243,5 +243,14 @@ footer{
 ========================================= */
 
 #heading{
-  
+  background: url(img/title.jpg);
+  width: 925px;
+  height: 70px;
+  border:5px solid #fff;
+  margin-bottom: 20px;
+  font-size: 27px;
+  line-height: 70px;
+  color:#2f5734;
+  font-weight: bold;
+  padding-left: 23px;
 }
