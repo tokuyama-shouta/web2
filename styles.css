@@ -66,8 +66,8 @@ a:focus {outline:none;}
 
 header{
   width: 960px;
-  height: 89px;
-  background-color: red;
+  height: 49px;
+  padding: 20px 0;
 }
 
 header h1{
@@ -91,6 +91,7 @@ header h1 span{
 
 header nav{
   float: right;
+  margin-top: 36px;
 }
 
 header nav ul li{
