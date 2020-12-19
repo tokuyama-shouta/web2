@@ -291,3 +291,14 @@ footer{
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.form_title{
+  width: 131px;
+  height: 32px;
+  font-size: 15px;
+  color:#734339;
+  vertical-align: top;
+}
+.form_title label{
+  font-weight: bold;
+}

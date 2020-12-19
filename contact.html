@@ -37,6 +37,61 @@
     <div id="left" class="box-shadow">
       <h3>ご予約・お問い合せフォーム</h3>
       <p id="contact-text">下記のお問い合わせフォームより希望の日時、ご予約内容をお知らせください。<br>お問い合わせの場合は【お客様ご要望欄】に記入して送信してください。</p>
+      <form>
+        <table>
+          <tr>
+            <td class="form_title">
+              <label for="form_name">お名前</label>
+            </td>
+            <td class="form_contents">
+              <input type="text" id="form_name">
+            </td>
+          </tr>
+          <tr>
+            <td class="form_title">
+              <label for="form_tel">お電話番号</label>
+            </td>
+            <td class="form_contents">
+              <input type="text" id="form_tel">
+            </td>
+          </tr>
+          <tr>
+            <td class="form_title">
+              <label for="form_time">ご希望日時</label>
+            </td>
+            <td class="form_contents">
+              <input type="text" class="form_time">年
+              <input type="text" class="form_time">月
+              <input type="text" class="form_time">日
+              <input type="text" class="form_time">時から
+              <input type="text" class="form_time">時まで
+            </td>
+          </tr>
+          <tr>
+            <td class="form_title">
+              <label for="form_name">ご希望メニュー</label>
+            </td>
+            <td class="form_contents">
+              <input type="checkbox" id="menu_cut" value="カット"> 
+              <label for="menu_cut">カット</label>
+  
+              <input type="checkbox" id="form_color" value="カラー">
+              <label for="menu_color">カラー</label>
+  
+              <input type="checkbox" id="form_perm" value="パーマ">
+              <label for="menu_perm">パーマ</label>
+            </td>
+          </tr>
+          <tr>
+            <td class="form_title">
+              <label for="form_name">お客様ご要望欄</label>
+            </td>
+            <td class="form_contents">
+              <textarea id="form_textarea"></textarea>
+            </td>
+          </tr>
+        </table>
+      </form>
     </div>
     <!-- レフトここまで -->
   
@@ -56,54 +111,6 @@
   <!-- footerここから -->
   <footer>
     <p>Copyright(C) 2010-2015 Campus inc. All Right Reserved.</p>
-    <form>
-      <table>
-        <tr>
-          <td class="form_title">
-            <label for="form_name">お名前</label>お名前
-          </td>
-          <td class="form_contents">
-            <input type="text" id="form_name">
-          </td>
-        </tr>
-        <tr>
-          <td class="form_title">
-            <label for="form_tel">お電話番号</label>お名前
-          </td>
-          <td class="form_contents">
-            <input type="text" id="form_tel">
-          </td>
-        </tr>
-        <tr>
-          <td class="form_title">
-            <label for="form_time">ご希望日時</label>お名前
-          </td>
-          <td class="form_contents">
-            <input type="text" class="form_time">年
-            <input type="text" class="form_time">月
-            <input type="text" class="form_time">日
-            <input type="text" class="form_time">時から
-            <input type="text" class="form_time">時まで
-          </td>
-        </tr>
-        <tr>
-          <td class="form_title">
-            <label for="form_name">お名前</label>お名前
-          </td>
-          <td class="form_contents">
-            <input type="text" id="form_name">
-          </td>
-        </tr>
-        <tr>
-          <td class="form_title">
-            <label for="form_name">お名前</label>お名前
-          </td>
-          <td class="form_contents">
-            <input type="text" id="form_name">
-          </td>
-        </tr>
-      </table>
-    </form>
   </footer>
   <!-- footerここまで -->
 
