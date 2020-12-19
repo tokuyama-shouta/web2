@@ -60,8 +60,13 @@ body{
   width: 960px;
   margin: 0 auto;
 }
+
 .box-shadow{
   box-shadow: 0 2px 7px rgba(83,78,61,0.3);
+}
+
+.clear{
+  clear: both;
 }
 
 
@@ -215,9 +220,11 @@ header nav ul li:hover a{
   background: url(img/blog.jpg)no-repeat;
 }
 
-.clear{
-  clear: both;
-}
+
+
+/* ========================================
+    footer用
+========================================= */
 
 footer{
   width: 100%;
@@ -228,4 +235,13 @@ footer{
   color:#fff;
   text-align: center;
   line-height: 58px;
+}
+
+
+/* ========================================
+    メニュー一覧用
+========================================= */
+
+#heading{
+  
 }
