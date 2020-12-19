@@ -60,6 +60,9 @@ body{
   width: 960px;
   margin: 0 auto;
 }
+.box-shadow{
+  box-shadow: 0 2px 7px rgba(83,78,61,0.3);
+}
 
 
 /* ========================================
@@ -137,7 +140,6 @@ header nav ul li:hover a{
   height: 290px;
   margin: 20px 0;
   border:5px solid #fff;
-  box-shadow: 0 2px 7px rgba(83,78,61,0.3);
 }
 
 
@@ -150,7 +152,6 @@ header nav ul li:hover a{
   background-color: #fff;
   float: left;
   margin-right: 20px;
-  box-shadow: 0 2px 7px rgba(83,78,61,0.3);
   padding: 10px;
 }
 
@@ -184,16 +185,25 @@ header nav ul li:hover a{
 /* ========================================
     ライト用
 ========================================= */
+
 #right{
   width: 365px;
   height: 198px;
   float: left;
 }
-#right ul li a#contact{
-  background: url(img/contact.jpg)no-repeat;
+
+#right ul li a{
   width: 365px;
   height: 60px;
   display: block;
+}
+
+#right ul li a#contact{
+  background: url(img/contact.jpg)no-repeat;
+}
+
+#right ul li a#blog{
+  background: url(img/blog.jpg)no-repeat;
 }
 
 .clear{
