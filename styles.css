@@ -70,9 +70,21 @@ header{
   width: 575px;
   height: 198px;
   background-color: pink;
+  float: left;
 }
 #right{
   width: 365px;
   height: 198px;
   background-color: green;
+  float: left;
+}
+
+.clear{
+  clear: both;
+}
+
+footer{
+  width: 100%;
+  height: 58px;
+  background-color: black;
 }
