@@ -78,6 +78,7 @@ header h1{
   line-height: 1;
   height: 49px;
   font-family: "メイリオ",Meiryo;
+  float: left;
 }
 
 header h1 span{
@@ -87,6 +88,16 @@ header h1 span{
   margin-top: 10px;
   display: inline-block;
 }
+
+header nav{
+  float: right;
+}
+
+header nav ul li{
+  float: left;
+  margin-left: 29px;
+}
+
 header nav ul li:hover{
   background: url(img/navbar.png)no-repeat center bottom;
   height: 36px;
@@ -101,7 +112,7 @@ header nav ul li a{
   height: 26px;
   display: inline-block;
 }
-header nav ul li a:hover{
+header nav ul li:hover a{
   color:#345c39;
   border-bottom:4px solid #345c39;
 }
