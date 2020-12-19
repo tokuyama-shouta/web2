@@ -68,6 +68,7 @@ header{
   width: 960px;
   height: 49px;
   padding: 20px 0;
+  position: relative;
 }
 
 header h1{
@@ -117,6 +118,13 @@ header nav ul li:hover a{
   color:#345c39;
   border-bottom:4px solid #345c39;
 }
+
+#nav_tel{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 
 
 /* ========================================
