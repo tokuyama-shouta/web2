@@ -187,8 +187,13 @@ header nav ul li:hover a{
 #right{
   width: 365px;
   height: 198px;
-  background-color: green;
   float: left;
+}
+#right ul li a#contact{
+  background: url(img/contact.jpg)no-repeat;
+  width: 365px;
+  height: 60px;
+  display: block;
 }
 
 .clear{
